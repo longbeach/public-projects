@@ -1,4 +1,4 @@
-package kr.ejsoft.spring.with.vuejs;
+package fr.gouv.finances.dgfip.poc.dotenvvuejs;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package kr.ejsoft.spring.with.vuejs;
+package fr.gouv.finances.dgfip.poc.dotenvvuejs;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

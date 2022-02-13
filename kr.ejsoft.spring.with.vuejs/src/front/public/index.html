@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title>front</title>
+    <script>
+    console.log(process.env.VUE_APP_NOT_SECRET_CODE)
+    
+    </script>
   </head>
   <body>
     <noscript>
@@ -14,5 +18,19 @@
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+
+     Titre:
+     <%= VUE_APP_TITRE %>
+               
+     Couleur:
+     <%= VUE_APP_COULEUR%>
+     
+     Matiere:
+     <%= VUE_APP_MATIERE%>     
+         
+    Env : <p>%NODE_ENV%</p>
+     <small>You are running this application in <b>{process.env.NODE_ENV}</b> mode.</small>
+     
+     
   </body>
 </html>

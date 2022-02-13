@@ -1,4 +1,4 @@
-package kr.ejsoft.spring.with.vuejs.controller;
+package fr.gouv.finances.dgfip.poc.dotenvvuejs.controller;
 
 import java.util.HashMap;
 import java.util.Map;

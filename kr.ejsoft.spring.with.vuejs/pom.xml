@@ -9,11 +9,11 @@
 		<relativePath/>
 	</parent>
 	
-	<groupId>kr.ejsoft</groupId>
-	<artifactId>spring.with.vuejs</artifactId>
+	<groupId>fr.gouv.finances.dgfip.poc</groupId>
+	<artifactId>dotenvvuejs</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>kr.ejsoft.spring.with.vuejs</name>
-	<description>Springframework with Vue.js</description>
+	<name>dotenvAvecVuejs</name>
+	<description>POC dotenv avec vuejs</description>
 	<packaging>jar</packaging>
 
 	<!-- 
@@ -31,12 +31,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<optional>true</optional>
 		</dependency>
 
 		<dependency>
@@ -92,6 +86,7 @@
 						</configuration>
 					</execution>
 					<!-- Build and minify static files -->
+					<!-- 
 					<execution>
 						<id>npm run build</id>
 						<goals>
@@ -99,6 +94,24 @@
 						</goals>
 						<configuration>
 							<arguments>run build</arguments>
+							 -->
+							<!-- 
+							<environmentVariables>
+                				<NODE_ENV>ia</NODE_ENV>
+              				</environmentVariables>
+              				 -->
+              				 <!--
+						</configuration>
+					</execution>
+					-->
+					<!-- Build and minify static files -->
+					<execution>
+						<id>npm run buildiacool</id>
+						<goals>
+							<goal>npm</goal>
+						</goals>
+						<configuration>
+							<arguments>run buildia</arguments>					
 						</configuration>
 					</execution>
 					<!-- Run Unit tests with Jest -->
