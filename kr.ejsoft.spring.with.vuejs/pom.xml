@@ -111,7 +111,10 @@
 							<goal>npm</goal>
 						</goals>
 						<configuration>
-							<arguments>run buildia</arguments>					
+							<arguments>run buildia</arguments>
+							<environmentVariables>
+                				<NODE_ENV>production</NODE_ENV>
+              				</environmentVariables>					
 						</configuration>
 					</execution>
 					<!-- Run Unit tests with Jest -->

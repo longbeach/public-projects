@@ -8,29 +8,20 @@
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title>front</title>
     <script>
-    console.log(process.env.VUE_APP_NOT_SECRET_CODE)
     
+    console.log(5 + 6);
+  
+
     </script>
   </head>
   <body>
     <noscript>
-      <strong>We're sorry but front doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong>Désolé mais le front ne fonctionne pas sans JavaScript activé. Merci de l'activer pour continuer.</strong>
     </noscript>
     <div id="app"></div>
-    <!-- built files will be auto injected -->
-
-     Titre:
-     <%= VUE_APP_TITRE %>
-               
-     Couleur:
-     <%= VUE_APP_COULEUR%>
-     
-     Matiere:
-     <%= VUE_APP_MATIERE%>     
-         
-    Env : <p>%NODE_ENV%</p>
-     <small>You are running this application in <b>{process.env.NODE_ENV}</b> mode.</small>
-     
-     
+     Titre:      <%= VUE_APP_TITRE %><br/>               
+     Couleur:     <%= VUE_APP_COULEUR%><br/>     
+                 
+     <small>Cette application tourne en mode <b>{process.env.NODE_ENV}</b></small>          
   </body>
 </html>
