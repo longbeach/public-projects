@@ -113,7 +113,7 @@
 						<configuration>
 							<arguments>run buildia</arguments>
 							<environmentVariables>
-                				<NODE_ENV>production</NODE_ENV>
+                				<NODE_ENV>development</NODE_ENV>
               				</environmentVariables>					
 						</configuration>
 					</execution>

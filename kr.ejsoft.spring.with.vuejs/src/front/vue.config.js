@@ -11,7 +11,11 @@ module.exports = {
         }
     },
     
-    configureWebpack: {
+    configureWebpack: () => {
+	if (process.env.NODE_ENV === "production") {
         devtool: 'source-map'
+	} else {
+		devtool: 'inline-source-map'
+	}
     },
 }
